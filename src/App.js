@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./pages/Cart";
-import { BrowserRouter as Router, Routes, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Routes, Route } from 'react-router-dom';
 import MyContext from './MyContext';
 
 const App = () => {
