@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./pages/Cart";
+// eslint-disable-next-line
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MyContext from './MyContext';
 
@@ -18,7 +19,7 @@ const App = () => {
       <section className="">
         <Navbar />
 
-        <main>
+        <main> 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
